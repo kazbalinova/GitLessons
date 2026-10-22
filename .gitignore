@@ -1,0 +1,19 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE workspace files
+.vscode/
+.idea/
+
+# Dependencies and generated output
+node_modules/
+dist/
+coverage/
+*.log
